@@ -44,5 +44,8 @@ class Word {
     }
   }
 }
-
+let myword1 = new Word('Aggregat')
+console.log(myword1.pigLatin());
+let myword2 = new Word('hm')
+console.log(myword2.pigLatin());
 module.exports = { Word };
